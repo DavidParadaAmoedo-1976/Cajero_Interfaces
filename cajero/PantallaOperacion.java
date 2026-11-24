@@ -70,7 +70,7 @@ public class PantallaOperacion extends Pantalla {
             });
             // TODO D2.2 — INICIO: Los importes rápidos no reciben el foco (apartado D2)
             //   Se comprueba: los botones con clase "importe-rapido" (ids rapido20 … rapido500) no reciben el foco.
-
+            b.setFocusTranversable(false);
 
             // TODO D2.2 — FIN
             rapidos[i] = b;
@@ -167,7 +167,7 @@ public class PantallaOperacion extends Pantalla {
     public void enfocar() {
         // TODO D1.5 — INICIO: Foco inicial de la operación (apartado D1)
         //   Se comprueba: foco en txtImporte.
-
+        t
 
         // TODO D1.5 — FIN
     }

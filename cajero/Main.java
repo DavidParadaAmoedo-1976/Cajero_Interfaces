@@ -169,7 +169,7 @@ public class Main extends Application {
 
         // TODO D1.2 — INICIO: Foco inicial al mostrar una pantalla (apartado D1)
         //   Se comprueba: tras mostrar una pantalla, el foco queda en el control que indica su método enfocar().
-
+            Platform.runlater(p::enfocar);
 
         // TODO D1.2 — FIN
         actualizarInspector();

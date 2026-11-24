@@ -165,7 +165,7 @@ public class PantallaLogin extends Pantalla {
     public void enfocar() {
         // TODO D1.3 — INICIO: Foco inicial de la identificación (apartado D1)
         //   Se comprueba: foco en txtTarjeta.
-
+        txtTarjeta.requestFocus();
 
         // TODO D1.3 — FIN
     }
